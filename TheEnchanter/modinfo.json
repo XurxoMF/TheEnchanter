@@ -1,0 +1,11 @@
+{
+    "type": "code",
+    "modid": "theenchanter",
+    "name": "The Enchanter",
+    "authors": ["XurxoMF"],
+    "description": "Adds an enchantment system to Vintage Story.",
+    "version": "0.0.0",
+    "dependencies": {
+        "game": "1.18.15"
+    }
+}

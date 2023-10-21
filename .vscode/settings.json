@@ -1,0 +1,7 @@
+{
+    "dotnet.defaultSolution": "TheEnchanter.sln",
+    "files.associations": {
+        "server-*.txt": "log",
+        "client-*.txt": "log"
+    }
+}
