@@ -3,6 +3,7 @@
     "modid": "theenchanter",
     "name": "The Enchanter",
     "authors": ["XurxoMF"],
+    "side": "universal",
     "description": "Adds an enchantment system to Vintage Story.",
     "version": "0.0.0",
     "dependencies": {
