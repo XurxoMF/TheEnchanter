@@ -17,17 +17,14 @@ namespace TheEnchanter.Behaviors
         {
             var stack = byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack;
 
-            if (stack?.Item?.Tool != null)
+            if (stack != null && stack.Attributes.HasAttribute("silktouch")) // Silktouch handler
             {
-                if (stack.Attributes.HasAttribute("silktouch")) // Silktouch handler
-                {
-                    handling = EnumHandling.PreventSubsequent;
+                handling = EnumHandling.PreventSubsequent;
 
-                    var level = stack.Attributes["silktouch"].GetValue();
-                    if (!Validators.IsAValidLevel(level)) return null;
+                var level = stack.Attributes["silktouch"].GetValue();
+                if (!Validators.IsAValidLevel(level)) return null;
 
-                    if (Convert.ToInt32(level) >= 1) return new[] { new ItemStack(block) };
-                }
+                if (Convert.ToInt32(level) >= 1) return new[] { new ItemStack(block) };
             }
 
             return base.GetDrops(world, pos, byPlayer, ref dropChanceMultiplier, ref handling);

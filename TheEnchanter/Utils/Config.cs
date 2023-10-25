@@ -15,7 +15,8 @@ namespace TheEnchanter.Utils
         {
             { "fortune", DeffaultConfigs.Fortune },
             { "silktouch", DeffaultConfigs.Silktouch },
-            { "unbreaking", DeffaultConfigs.Unbreaking }
+            { "unbreaking", DeffaultConfigs.Unbreaking },
+            { "sharpness", DeffaultConfigs.Sharpness }
         };
 
         /// <summary>
@@ -82,8 +83,15 @@ namespace TheEnchanter.Utils
         /// Unbreaking deffault config.
         /// </summary>
         public static readonly Enchantment Unbreaking = new(true, 3, 0.1f);
+        /// <summary>
+        /// Sharpness deffault config.
+        /// </summary>
+        public static readonly Enchantment Sharpness = new(true, 3, 0.1f);
     }
 
+    /// <summary>
+    /// Methods to load, save, read config...
+    /// </summary>
     public static class ConfigManager
     {
         /// <summary>
@@ -110,6 +118,7 @@ namespace TheEnchanter.Utils
                     FortuneValidator(api, ref config);
                     SilktouchValidator(api, ref config);
                     UnbreakingValidator(api, ref config);
+                    SharpnessValidator(api, ref config);
 
                     GenerateConfig(api, config);
                 }
@@ -190,6 +199,23 @@ namespace TheEnchanter.Utils
             if (config.Enchantments["unbreaking"].MaxLevel < 1) config.Enchantments["unbreaking"].MaxLevel = DeffaultConfigs.Unbreaking.MaxLevel;
             // MultiplierByLevel
             if (config.Enchantments["unbreaking"].MultiplierByLevel < 0f) config.Enchantments["unbreaking"].MultiplierByLevel = DeffaultConfigs.Unbreaking.MultiplierByLevel;
+        }
+
+        /// <summary>
+        /// Validates the Enchantments["sharpness"] config.
+        /// </summary>
+        /// <param name="api">ICoreAPI</param>
+        /// <param name="config">ref Config to modify the values.</param>
+        private static void SharpnessValidator(ICoreAPI api, ref Config config)
+        {
+            if (!config.Enchantments.ContainsKey("sharpness")) config.Enchantments.Add("sharpness", DeffaultConfigs.Sharpness);
+
+            if (config.Enchantments["sharpness"] == null) config.Enchantments["sharpness"] = DeffaultConfigs.Sharpness;
+
+            // MaxLevel
+            if (config.Enchantments["sharpness"].MaxLevel < 1) config.Enchantments["sharpness"].MaxLevel = DeffaultConfigs.Sharpness.MaxLevel;
+            // MultiplierByLevel
+            if (config.Enchantments["sharpness"].MultiplierByLevel < 0f) config.Enchantments["sharpness"].MultiplierByLevel = DeffaultConfigs.Sharpness.MultiplierByLevel;
         }
     }
 }

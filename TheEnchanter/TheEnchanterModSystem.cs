@@ -33,6 +33,7 @@ namespace TheEnchanter
             // Register all the BlockBehaviors
             api.RegisterBlockBehaviorClass("FortuneBlockBehavior", typeof(FortuneBlockBehavior));
             api.RegisterBlockBehaviorClass("SilkTouchBlockBehavior", typeof(SilkTouchBlockBehavior));
+            api.RegisterEntityBehaviorClass("SharpnessEntityBehavior", typeof(SharpnessEntityBehavior));
         }
 
         public override void StartServerSide(ICoreServerAPI api)
@@ -57,6 +58,7 @@ namespace TheEnchanter
             // Add Behaviors to all the Blocks, filtered in each function
             FortuneBlockBehavior.AddBehavior(api);
             SilkTouchBlockBehavior.AddBehavior(api);
+            // SharpnessEntityBehavior added with assets.
         }
     }
 }

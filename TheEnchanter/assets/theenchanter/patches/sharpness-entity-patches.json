@@ -1,0 +1,302 @@
+[
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/humanoid/player.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/playerbot.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-agriculture.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-artisan.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-buildmaterials.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-clothing.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-commodities.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-furniture.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-luxuries.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-survivalgoods.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/himanoid/trader-treasurehunter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/animalbot.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/bear.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/chicken-baby.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/chicken-hen.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/eidolon-immobilized.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/fox-arctic-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/fox-arctic-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/fox-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/fox-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/fox-pup.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/gazelle.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/grub.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hare-baby.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hare-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hare-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hyena-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hyena-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/hyena-pup.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/locust.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/locust-hacked.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/mechhelper.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/pig-wild-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/pig-wild-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/pig-wild-piglet.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/raccoon-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/raccoon-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/raccoon-pup.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/sheep-bighorn-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/sheep-bighorn-lamb.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/sheep-bighorn-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/strawdummy.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/wolf-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/wolf-male.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/land/wolf-pup.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/water/bass.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "SharpnessEntityBehavior" },
+        "file": "game:entities/water/salmon.json"
+    }
+]

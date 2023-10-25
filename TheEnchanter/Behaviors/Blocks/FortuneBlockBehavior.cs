@@ -20,23 +20,20 @@ namespace TheEnchanter.Behaviors
 
             List<ItemStack> toDrop = new();
 
-            if (stack?.Item?.Tool != null && stack.Item.Tool == EnumTool.Pickaxe)
+            if (stack != null && stack.Attributes.HasAttribute("fortune")) //  Fortune handler
             {
-                if (stack.Attributes.HasAttribute("fortune")) //  Fortune handler
+                var level = stack.Attributes["fortune"].GetValue();
+                if (!Validators.IsAValidLevel(level)) return null;
+                float multiplier = Convert.ToSingle(level) * TheEnchanterModSystem.Config.Enchantments["fortune"].MultiplierByLevel;
+
+                foreach (var drop in block.Drops)
                 {
-                    var level = stack.Attributes["fortune"].GetValue();
-                    if (!Validators.IsAValidLevel(level)) return null;
-                    float multiplier = Convert.ToSingle(level) * TheEnchanterModSystem.Config.Enchantments["fortune"].MultiplierByLevel;
-
-                    foreach (var drop in block.Drops)
-                    {
-                        var stackDrop = drop.GetNextItemStack(multiplier);
-                        if (stackDrop == null) continue;
-                        toDrop.Add(stackDrop);
-                    }
-
-                    return toDrop.ToArray();
+                    var stackDrop = drop.GetNextItemStack(multiplier);
+                    if (stackDrop == null) continue;
+                    toDrop.Add(stackDrop);
                 }
+
+                return toDrop.ToArray();
             }
 
             return base.GetDrops(world, pos, byPlayer, ref dropChanceMultiplier, ref handling);
